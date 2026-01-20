@@ -10,17 +10,17 @@ PKG_LICENSE:=MIT
 include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-network-scripts
-  SECTION:=luci
-  CATEGORY:=LuCI
-  SUBMENU:=3. Applications
-  TITLE:=Network Authentication & Keepalive Scripts
-  DEPENDS:=+luci-base +curl +wget
-  PKGARCH:=all
+	SECTION:=luci
+	CATEGORY:=LuCI
+	SUBMENU:=3. Applications
+	TITLE:=Network Authentication & Keepalive Scripts
+	DEPENDS:=+luci-base +curl +wget
+	PKGARCH:=all
 endef
 
 define Package/luci-app-network-scripts/description
-  Advanced network authentication scripts with keepalive functionality.
-  Supports Campus Network authentication, multi-wan scenarios, and automatic reconnection.
+	Advanced network authentication scripts with keepalive functionality.
+	Supports Campus Network authentication, multi-wan scenarios, and automatic reconnection.
 endef
 
 define Build/Compile
