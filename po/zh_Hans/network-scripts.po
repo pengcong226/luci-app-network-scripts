@@ -1,0 +1,272 @@
+# Chinese (Simplified) translation for luci-app-network-scripts
+# Copyright (C) 2024
+# This file is distributed under the same license as the luci-app-network-scripts package.
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_Hans\n"
+
+#: luasrc/controller/network-scripts/index.lua
+msgid "Network Scripts"
+msgstr "网络脚本管理"
+
+msgid "Status"
+msgstr "状态监控"
+
+msgid "Configuration"
+msgstr "基础配置"
+
+msgid "Schedule"
+msgstr "时间策略"
+
+msgid "Notification"
+msgstr "通知设置"
+
+msgid "Logs"
+msgstr "运行日志"
+
+msgid "Statistics"
+msgstr "历史统计"
+
+msgid "Manual Control"
+msgstr "手动控制"
+
+#: luasrc/model/cbi/network-scripts/config.lua
+msgid "Basic Configuration"
+msgstr "基础配置"
+
+msgid "Configure campus network authentication and switching parameters"
+msgstr "配置校园网认证与切换参数"
+
+msgid "System Settings"
+msgstr "系统设置"
+
+msgid "Interface Settings"
+msgstr "接口设置"
+
+msgid "Default Policy"
+msgstr "默认策略"
+
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+msgid "Broadband Interface"
+msgstr "宽带逻辑接口"
+
+msgid "Broadband Device"
+msgstr "宽带物理设备"
+
+msgid "Broadband Gateway IP"
+msgstr "宽带网关 IP"
+
+msgid "CPE Interface"
+msgstr "CPE 逻辑接口"
+
+msgid "CPE Device"
+msgstr "CPE 物理设备"
+
+msgid "CPE Gateway IP"
+msgstr "CPE 网关 IP"
+
+msgid "Broadband Start Hour"
+msgstr "宽带开始时间"
+
+msgid "Broadband End Hour"
+msgstr "宽带结束时间"
+
+msgid "Enable Quality Check"
+msgstr "启用质量检测"
+
+msgid "Max Latency (ms)"
+msgstr "最大延迟 (ms)"
+
+msgid "Max Packet Loss (%)"
+msgstr "最大丢包率 (%)"
+
+msgid "Boot Delay (s)"
+msgstr "启动延迟 (秒)"
+
+msgid "Log Level"
+msgstr "日志级别"
+
+msgid "Authentication Account"
+msgstr "认证账号"
+
+msgid "Account Settings"
+msgstr "账号设置"
+
+msgid "Server Settings"
+msgstr "服务器设置"
+
+msgid "Primary Username"
+msgstr "主账号"
+
+msgid "Primary Password"
+msgstr "主账号密码"
+
+msgid "Backup Username"
+msgstr "备用账号"
+
+msgid "Backup Password"
+msgstr "备用账号密码"
+
+msgid "AC IP (Hijack Gateway)"
+msgstr "AC IP (劫持网关)"
+
+msgid "Used for building authentication packets"
+msgstr "用于构建认证报文"
+
+msgid "AC Name"
+msgstr "AC 名称"
+
+msgid "School DNS Server"
+msgstr "学校DNS服务器"
+
+msgid "Used for resolving real authentication server IP"
+msgstr "用于解析真实认证服务器IP"
+
+msgid "Auth Domain"
+msgstr "认证域名"
+
+#: luasrc/model/cbi/network-scripts/schedule.lua
+msgid "Schedule Policy"
+msgstr "时间策略"
+
+msgid "Custom Time Periods"
+msgstr "自定义时段"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Line"
+msgstr "线路"
+
+#: luasrc/model/cbi/network-scripts/notify.lua
+msgid "Notification Settings"
+msgstr "通知设置"
+
+msgid "DingTalk Bot Settings"
+msgstr "钉钉机器人设置"
+
+msgid "Basic Settings"
+msgstr "基本设置"
+
+msgid "Trigger Conditions"
+msgstr "触发条件"
+
+msgid "Enable Notification"
+msgstr "启用通知"
+
+msgid "Webhook URL"
+msgstr "Webhook 地址"
+
+msgid "Sign Secret"
+msgstr "加签密钥"
+
+msgid "Notify on Auth Failure"
+msgstr "认证失败时通知"
+
+msgid "Notify on Line Switch"
+msgstr "线路切换时通知"
+
+msgid "Notify on Network Offline"
+msgstr "网络离线时通知"
+
+#: luasrc/view/network-scripts/status.htm
+msgid "Network Status Monitor"
+msgstr "网络状态监控"
+
+msgid "Basic Status"
+msgstr "基本状态"
+
+msgid "Policy"
+msgstr "策略"
+
+msgid "Gateway"
+msgstr "网关"
+
+msgid "Internet"
+msgstr "外网"
+
+msgid "Auth"
+msgstr "认证"
+
+msgid "Lock"
+msgstr "锁定"
+
+msgid "Broadband"
+msgstr "宽带"
+
+msgid "Latency/Loss"
+msgstr "延迟/丢包"
+
+msgid "Lock Broadband 2h"
+msgstr "锁定宽带2小时"
+
+msgid "Lock CPE 2h"
+msgstr "锁定CPE2小时"
+
+msgid "Unlock"
+msgstr "解锁"
+
+#: luasrc/view/network-scripts/control.htm
+msgid "Run Switch Check"
+msgstr "执行切换检测"
+
+msgid "Test Line Quality"
+msgstr "测试线路质量"
+
+msgid "Diagnose Mode"
+msgstr "诊断模式"
+
+msgid "Force Auth"
+msgstr "强制认证"
+
+msgid "Logout"
+msgstr "注销登录"
+
+#: luasrc/view/network-scripts/logs.htm
+msgid "Switch Log"
+msgstr "切换日志"
+
+msgid "Auth Log"
+msgstr "认证日志"
+
+msgid "History"
+msgstr "历史记录"
+
+msgid "Refresh"
+msgstr "刷新"
+
+#: luasrc/view/network-scripts/history.htm
+msgid "Today"
+msgstr "今日"
+
+msgid "This Week"
+msgstr "本周"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Total Events"
+msgstr "总事件"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Success Rate"
+msgstr "成功率"
+
+msgid "Recent Records"
+msgstr "最近记录"
