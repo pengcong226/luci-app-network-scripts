@@ -1,0 +1,27 @@
+<%+header%>
+<style>.ctrl-btn{display:block;width:100%;padding:15px;margin:10px 0;border:none;border-radius:5px;cursor:pointer;color:#fff;font-size:16px}</style>
+<div class="cbi-map">
+ <h2>🛠️ <%:Manual Control%></h2>
+ <div style="display:grid;gap:20px;grid-template-columns:1fr 1fr">
+  <div>
+   <button class="ctrl-btn" style="background:#3498db" onclick="run('switch')"><%:Run Switch Check%></button>
+   <button class="ctrl-btn" style="background:#9b59b6" onclick="run('test')"><%:Test Line Quality%></button>
+   <button class="ctrl-btn" style="background:#34495e" onclick="run('diagnose')"><%:Diagnose Mode%></button>
+  </div>
+  <div>
+   <button class="ctrl-btn" style="background:#27ae60" onclick="run('auth')"><%:Force Auth%></button>
+   <button class="ctrl-btn" style="background:#e74c3c" onclick="run('logout')"><%:Logout%></button>
+  </div>
+ </div>
+ <pre id="res" style="margin-top:20px;padding:15px;background:#1e1e1e;color:#d4d4d4;border-radius:5px;display:none;max-height:500px;overflow:auto"></pre>
+ <script>
+  function run(a){
+   document.getElementById('res').style.display='block';
+   document.getElementById('res').innerHTML='Executing...';
+   fetch('<%=luci.dispatcher.build_url("admin/services/network-scripts/api")%>/run?action='+a)
+   .then(r=>(a=='test'||a=='diagnose')?r.text():r.json())
+   .then(d=>{document.getElementById('res').innerHTML=(a=='test'||a=='diagnose')?d:'Command sent, please check logs'});
+  }
+ </script>
+</div>
+<%+footer%>

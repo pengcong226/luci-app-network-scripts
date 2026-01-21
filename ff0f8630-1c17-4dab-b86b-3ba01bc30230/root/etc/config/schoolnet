@@ -1,5 +1,0 @@
-config schoolnet 'base'
-	option enabled '0'
-	option username ''
-	option password ''
-	option isp 'campus'
