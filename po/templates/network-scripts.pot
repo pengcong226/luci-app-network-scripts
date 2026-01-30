@@ -1,0 +1,271 @@
+# Network Scripts LuCI Application
+# Copyright (C) 2024
+# This file is distributed under the same license as the luci-app-network-scripts package.
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: luasrc/controller/network-scripts/index.lua
+msgid "Network Scripts"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Notification"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Manual Control"
+msgstr ""
+
+#: luasrc/model/cbi/network-scripts/config.lua
+msgid "Basic Configuration"
+msgstr ""
+
+msgid "Configure campus network authentication and switching parameters"
+msgstr ""
+
+msgid "System Settings"
+msgstr ""
+
+msgid "Interface Settings"
+msgstr ""
+
+msgid "Default Policy"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Broadband Interface"
+msgstr ""
+
+msgid "Broadband Device"
+msgstr ""
+
+msgid "Broadband Gateway IP"
+msgstr ""
+
+msgid "CPE Interface"
+msgstr ""
+
+msgid "CPE Device"
+msgstr ""
+
+msgid "CPE Gateway IP"
+msgstr ""
+
+msgid "Broadband Start Hour"
+msgstr ""
+
+msgid "Broadband End Hour"
+msgstr ""
+
+msgid "Enable Quality Check"
+msgstr ""
+
+msgid "Max Latency (ms)"
+msgstr ""
+
+msgid "Max Packet Loss (%)"
+msgstr ""
+
+msgid "Boot Delay (s)"
+msgstr ""
+
+msgid "Log Level"
+msgstr ""
+
+msgid "Authentication Account"
+msgstr ""
+
+msgid "Account Settings"
+msgstr ""
+
+msgid "Server Settings"
+msgstr ""
+
+msgid "Primary Username"
+msgstr ""
+
+msgid "Primary Password"
+msgstr ""
+
+msgid "Backup Username"
+msgstr ""
+
+msgid "Backup Password"
+msgstr ""
+
+msgid "AC IP (Hijack Gateway)"
+msgstr ""
+
+msgid "Used for building authentication packets"
+msgstr ""
+
+msgid "AC Name"
+msgstr ""
+
+msgid "School DNS Server"
+msgstr ""
+
+msgid "Used for resolving real authentication server IP"
+msgstr ""
+
+msgid "Auth Domain"
+msgstr ""
+
+#: luasrc/model/cbi/network-scripts/schedule.lua
+msgid "Schedule Policy"
+msgstr ""
+
+msgid "Custom Time Periods"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+#: luasrc/model/cbi/network-scripts/notify.lua
+msgid "Notification Settings"
+msgstr ""
+
+msgid "DingTalk Bot Settings"
+msgstr ""
+
+msgid "Basic Settings"
+msgstr ""
+
+msgid "Trigger Conditions"
+msgstr ""
+
+msgid "Enable Notification"
+msgstr ""
+
+msgid "Webhook URL"
+msgstr ""
+
+msgid "Sign Secret"
+msgstr ""
+
+msgid "Notify on Auth Failure"
+msgstr ""
+
+msgid "Notify on Line Switch"
+msgstr ""
+
+msgid "Notify on Network Offline"
+msgstr ""
+
+#: luasrc/view/network-scripts/status.htm
+msgid "Network Status Monitor"
+msgstr ""
+
+msgid "Basic Status"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Gateway"
+msgstr ""
+
+msgid "Internet"
+msgstr ""
+
+msgid "Auth"
+msgstr ""
+
+msgid "Lock"
+msgstr ""
+
+msgid "Broadband"
+msgstr ""
+
+msgid "Latency/Loss"
+msgstr ""
+
+msgid "Lock Broadband 2h"
+msgstr ""
+
+msgid "Lock CPE 2h"
+msgstr ""
+
+msgid "Unlock"
+msgstr ""
+
+#: luasrc/view/network-scripts/control.htm
+msgid "Run Switch Check"
+msgstr ""
+
+msgid "Test Line Quality"
+msgstr ""
+
+msgid "Diagnose Mode"
+msgstr ""
+
+msgid "Force Auth"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+#: luasrc/view/network-scripts/logs.htm
+msgid "Switch Log"
+msgstr ""
+
+msgid "Auth Log"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+#: luasrc/view/network-scripts/history.htm
+msgid "Today"
+msgstr ""
+
+msgid "This Week"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Total Events"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Success Rate"
+msgstr ""
+
+msgid "Recent Records"
+msgstr ""
